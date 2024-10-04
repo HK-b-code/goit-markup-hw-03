@@ -80,6 +80,10 @@ nav ul a:visited {
     color: #434455;
 }
 
+.adress-list-link:focus {
+    color: #404bbf;
+}
+
 .adress-list-link:hover {
     color: #404bbf;
 }
