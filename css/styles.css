@@ -21,8 +21,12 @@ h4,
 h5,
 h6,
 p,
+{
+margin: 0;
+}
+
 img {
-    margin: 0;
+    display: block;
 }
 
 ul {
@@ -79,6 +83,7 @@ nav ul a:visited {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-navigation-logo-black {
@@ -157,6 +162,9 @@ nav ul a:visited {
 }
 
 .main-button {
+    display: block;
+    border: none;
+    margin: auto;
     text-align: center;
     background: #4d5ae5;
     font-weight: 500;
@@ -167,7 +175,7 @@ nav ul a:visited {
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
@@ -212,7 +220,7 @@ nav ul a:visited {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .concept-text {
@@ -227,7 +235,7 @@ nav ul a:visited {
 
 .team-card {
     background: #f4f4fd;
-    padding: 99px 0 141px 0;
+    padding: 120px 0;
     width: 1440px;
     margin: 0 auto;
 }
@@ -240,6 +248,7 @@ nav ul a:visited {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-card-list {
@@ -251,7 +260,12 @@ nav ul a:visited {
 .team-card-item {
     background: #fff;
     width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-card-item-down {
+    padding: 32px 0;
 }
 
 .team-card-item-title {
@@ -261,7 +275,6 @@ nav ul a:visited {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -278,7 +291,7 @@ nav ul a:visited {
 /*main-portfolio*/
 
 .portfolio {
-    padding: 99px 0 120px 0;
+    padding: 120px 0;
 }
 
 .portfolio-title {
@@ -289,6 +302,8 @@ nav ul a:visited {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 
@@ -297,6 +312,7 @@ nav ul a:visited {
     flex-wrap: wrap;
     gap: 24px;
     margin-top: 72px;
+    row-gap: 48px;
 }
 
 .portfolio-list-item {
@@ -306,6 +322,7 @@ nav ul a:visited {
 
 .portfolio-list-item-border-down {
     border: 1px solid #e7e9fc;
+    border-top: none;
     margin: 0;
     padding: 32px 16px;
 }
@@ -345,7 +362,6 @@ nav ul a:visited {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     display: flex;
-    margin-left: 156px;
 }
 
 .footer-logo-white {
@@ -363,7 +379,6 @@ nav ul a:visited {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    width: 264px;
+    max-width: 264px;
     margin-top: 16px;
-    margin-left: 156px;
 }
