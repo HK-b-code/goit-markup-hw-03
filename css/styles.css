@@ -58,6 +58,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 72px;
 }
 
 .header-navigation {
@@ -360,7 +361,6 @@ nav ul a:visited {
     text-transform: uppercase;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
-    display: flex;
     display: inline-block;
     margin-bottom: 16px;
 }
