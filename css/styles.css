@@ -120,6 +120,7 @@ nav ul a:visited {
     display: flex;
     gap: 40px;
     padding: 0;
+    font-style: normal;
 }
 
 .adress-list-link {
@@ -144,7 +145,6 @@ nav ul a:visited {
     background-color: #2e2f42;
     text-align: center;
     padding: 188px 0;
-    width: 1440px;
     margin: 0 auto;
 }
 
@@ -283,7 +283,6 @@ nav ul a:visited {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin-bottom: 32px;
 }
 
 /*main-portfolio*/
@@ -348,7 +347,6 @@ nav ul a:visited {
 .footer {
     background: #2e2f42;
     padding: 100px 0;
-    width: 1440px;
     margin: 0 auto;
 }
 
